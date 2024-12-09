@@ -2,10 +2,11 @@
 /* Your CSS Code here. */
 
 .holder{
-	width:400px;
 	height:400px;
 	display:grid;
-	grid-template-columns:repeat(2,200px);
+	grid-template-columns:repeat(2,100px);
+	border:2px solid black;
+	
 }
 .item{
 	border:2px solid black;
